@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "sources": ["models"],
+  "maven": {
+    "dependencies": [
+      "software.amazon.smithy:smithy-openapi:1.63.0",
+      "software.amazon.smithy:smithy-aws-traits:1.63.0"
+    ]
+  },
+  "plugins": {
+    "openapi": {
+      "service": "com.uaic.smithypoc#SmithyPOC",
+      "protocol": "aws.protocols#restJson1",
+      "version": "3.1.0"
+    }
+  }
+}
