@@ -11,6 +11,7 @@
     "openapi": {
       "service": "com.uaic.smithypoc#SmithyPOC",
       "protocol": "aws.protocols#restJson1",
+      "tags": true,
       "version": "3.1.0"
     }
   }

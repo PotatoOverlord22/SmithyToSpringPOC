@@ -4,6 +4,7 @@ namespace com.uaic.smithypoc
 
 @readonly
 @http(method: "GET", uri: "/students")
+@tags(["students"])
 operation GetStudents {
     input: GetStudentsInput
     output: GetStudentsOutput

@@ -10,5 +10,5 @@ openapi-generator generate \
   --package-name com.uaic.smithypoc.generated \
   --model-package com.uaic.smithypoc.generated.model \
   --api-package com.uaic.smithypoc.generated.api \
-  --additional-properties=useTags=true,useJakartaEe=true
+  --additional-properties=useTags=true,,delegatePattern=true,useSpringBoot3=true
 ```
